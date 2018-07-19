@@ -1,0 +1,12 @@
+{
+  "extends": ["node"],
+  "globals": {
+    "describe": true,
+    "it": true
+  },
+  "rules": {
+    "semi": ["error", "never"],
+    "import/no-commonjs": 0,
+    "quotes": ["error", "single"]
+  }
+}
